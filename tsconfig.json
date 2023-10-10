@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2015.promise"
+    ],
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@app/*": ["./src/*"],
+      "tslib": ["./node_modules/tslib/tslib.d.ts"]
+    },
+    // arcgis api
+    //"lib": ["ES2019", "DOM"],
+    //"noImplicitAny": true,
+    //"jsxFactory": "tsx",
+    //"experimentalDecorators": true,
+    //"preserveConstEnums": true,
+    //"suppressImplicitAnyIndexErrors": true
+  },
+  "include":[
+    "./src/**/*",
+    "./src/images.d.ts",
+    "./src/index.d.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

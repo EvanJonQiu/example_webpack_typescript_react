@@ -1,0 +1,14 @@
+node_modules
+
+.DS_Store
+
+dist
+
+debug.log
+.vscode
+.idea
+*.eml
+*.patch
+
+yarn-error.log
+*.orig
